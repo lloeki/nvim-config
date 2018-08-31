@@ -102,6 +102,9 @@ inoremap <F6> <C-O>:set list!<CR>
 " Diff before save
 nmap <leader>d :w !diff -u % -<CR>
 
+" Zen mode
+nmap <leader>z :set nolist<CR>:Goyo<CR>
+
 " Code navigation
 map <leader>t :Sexplore<CR>
 map <leader>b :Buffers<CR>
