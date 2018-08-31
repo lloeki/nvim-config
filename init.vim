@@ -99,6 +99,9 @@ nmap <F6> :set list!<CR>
 inoremap <F5> <C-O>:set number!<CR>
 inoremap <F6> <C-O>:set list!<CR>
 
+" Diff before save
+nmap <leader>d :w !diff -u % -<CR>
+
 " Code navigation
 map <leader>t :Sexplore<CR>
 map <leader>b :Buffers<CR>
