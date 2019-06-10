@@ -112,15 +112,15 @@ map <leader>r :Tags<CR>
 map <leader>p :Files<CR>
 
 " Terminal remap for non-US keyboard
-tnoremap <C-b> <C-\>
+"tnoremap <C-b> <C-\>
 
 " Unimpaired remap for non-US keyboard
-nmap ( [
-nmap ) ]
-omap ( [
-omap ) ]
-xmap ( [
-xmap ) ]
+"nmap ( [
+"nmap ) ]
+"omap ( [
+"omap ) ]
+"xmap ( [
+"xmap ) ]
 
 " EasyAlign
 xmap ga <Plug>(EasyAlign)
