@@ -44,6 +44,7 @@ Plug 'vim-scripts/argtextobj.vim'           " arguments
 Plug 'michaeljsmith/vim-indent-object'      " indentation
 
 " Extensions
+Plug 'editorconfig/editorconfig-vim'        " editorconfig
 Plug 'junegunn/vim-easy-align'              " alignment
 Plug 'tpope/vim-repeat'                     " extend `.`
 Plug 'tpope/vim-surround'                   " surround
