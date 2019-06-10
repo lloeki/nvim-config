@@ -29,7 +29,7 @@ Plug 'kchmck/vim-coffee-script'   , { 'for': 'coffee' }
 Plug 'vim-scripts/glsl.vim'       , { 'for': 'glsl' }
 Plug 'fatih/vim-go'              ", { 'for': 'go', 'do': ':GoInstallBinaries' }
 Plug 'davidhalter/jedi-vim'      ", { 'for': 'python' }
-
+Plug 'leafgarland/typescript-vim' , { 'for': 'typescript' }
 "Plug 'nsf/gocode'                , { 'for': 'go', 'rtp': 'vim' }
 Plug 'groenewege/vim-less'        , { 'for': 'less' }
 Plug 'tpope/vim-markdown'        ", { 'for': ['md', 'mdown', 'markdown'] }
