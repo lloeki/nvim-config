@@ -126,6 +126,9 @@ map <leader>p :Files<CR>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
+" Editorconfig
+let g:EditorConfig_exclude_patterns = ['fugitive://.\*']
+
 " Filetype/language specific settings
 augroup vimrc
   autocmd! *                             " clear for reload
