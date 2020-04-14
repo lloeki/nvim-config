@@ -143,6 +143,9 @@ augroup vimrc
   autocmd! BufNewFile,BufRead crontab.* setl nobackup | setl nowritebackup   " Fix for crontab -e
 augroup END
 
+" Go tools path
+let g:go_bin_path = expand('~') .. "/.local/libexec/go/bin"
+
 if expand('%:t') =~? 'rfc\d\+' || expand('%:t') =~? 'draft-.*-\d\{2,}'
   setfiletype rfc
   setl textwidth=72
