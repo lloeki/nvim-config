@@ -15,6 +15,7 @@ Plug 'jremmen/vim-ripgrep'    " rg is the new ag is the new ack
 
 " UI extensions
 Plug 'ciaranm/securemodelines'          " safe modelines in files
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -38,6 +39,9 @@ Plug 'jboyens/vim-protobuf'       , { 'for': 'proto' }
 Plug 'dag/vim-fish'               , { 'for': 'fish' }
 Plug 'vim-scripts/rfc-syntax'     , { 'for': 'rfc' }
 Plug 'rust-lang/rust.vim'        ", { 'for': ['rs', 'rust'] }
+Plug 'LnL7/vim-nix'              ", { 'for': 'nix' }
+Plug 'toyamarinyon/vim-swift'    ", { 'for': 'swift' }
+Plug 'jjo/vim-cue'               ", { 'for': 'cue' }
 
 " Text objects
 Plug 'vim-scripts/argtextobj.vim'           " arguments
